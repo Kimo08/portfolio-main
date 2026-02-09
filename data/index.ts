@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -74,14 +76,6 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "/ccrw.vercel.app",
   },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
 ];
 
 export const testimonials = [
@@ -134,17 +128,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Kimo08",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/K_e_n_n_e_d_y",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/kennedy-obasi-61a38a325/",
   },
   {
     id: 4,
     img: "/wha.svg",
+    link: "https://wa.me/+2348140817343",
   },
 ];
